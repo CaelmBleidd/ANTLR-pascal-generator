@@ -1,0 +1,15 @@
+program swap;
+
+var
+  x,y: double;
+  v, sum: double;
+begin
+  x := 5.2;
+  y := 4.1;
+  v := 3.0;
+  v := x;
+  x := y;
+  y := v;
+  sum := x * y * v;
+  writeln(x, y, v, sum);
+end.

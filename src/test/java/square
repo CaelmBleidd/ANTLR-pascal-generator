@@ -1,0 +1,13 @@
+program a;
+
+
+const Pi: double = 3.1415;
+
+var r, a: integer;
+var S: double;
+
+begin
+  r := 5;
+  S := Pi*r*r;
+  writeln(S);
+end.

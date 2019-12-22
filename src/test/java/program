@@ -1,0 +1,58 @@
+program test;
+
+const Pi: double = 3.1415;
+
+procedure mul(x, y: integer);
+var a: integer;
+begin
+  a := x * y;
+  writeln(a);
+end;
+
+function return5(var lkmlm: double): integer;
+begin
+  lkmlk := 10;
+  return5 := 5;
+end;
+
+var
+  a_i, b_i, c_i: integer;
+  a_c, b_c, c_c: char;
+  a_s, b_s, c_s: string;
+  a_b, b_b, c_b: boolean;
+  a_d, b_d, c_d: double;
+  lkmlk: integer;
+begin
+  a_i := 1;
+  b_i := 2;
+  c_i := 3;
+
+  a_c := '1';
+  b_c := '2';
+  c_c := '3';
+
+  a_s := '1';
+  b_s := '2';
+  c_s := '3';
+
+  a_b := true;
+  b_b := false;
+  c_c := true;
+
+  a_d := 1.1;
+  b_d := 2.2;
+  c_d := 3.3;
+
+  for i := 0 to 10 do
+    writeln('Here we go');
+
+  writeln(S);
+
+  if 3 > 4 then
+    writeln('3 > 4');
+  else
+    writeln('something went wrong');
+
+  return5(lkmlk);
+  writeln(lkmlk);
+end.
